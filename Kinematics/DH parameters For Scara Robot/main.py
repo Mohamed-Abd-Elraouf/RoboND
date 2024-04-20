@@ -10,7 +10,7 @@ a23 = 0.3000 # meters
 # DH Parameters
 s = {alpha0: 0,  a0:   0, d1: 0,
      alpha1: 0,  a1: a12, d2: 0,
-     alpha2: 0,  a2: a23,        d3: 0,
+     alpha2: 0,  a2: a23,        q3: 0,
      alpha3: 0,  a3:   0, d4: 0}
 #### Homogeneous Transforms
 T0_1 = Matrix([[             cos(q1),            -sin(q1),            0,              a0],
